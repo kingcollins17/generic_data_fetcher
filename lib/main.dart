@@ -6,8 +6,8 @@ import 'src/data_models.dart';
 const exampleUrl = 'https://dog.ceo/api/breed/image/random';
 
 void main() async {
-  // try {
-  ///To fetch a string
+  try {
+    // /To fetch a string
   final stringFetcher =
       DataFetcher<String>(converter: (source) => source.toString());
 
@@ -50,8 +50,9 @@ void main() async {
 
   Uint8List bytes = await bytesDataFetcher.fetchData(exampleUrl);
   print(bytes);
-  // } catch (e) {
-  //   //catch all errors and  print them out to console
-  //   print(e);
-  // }
+  
+  } catch (e) {
+    //catch all errors and  print them out to console
+    print(e);
+  }
 }
