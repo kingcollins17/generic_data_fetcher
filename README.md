@@ -3,5 +3,5 @@ kodecamp Generic data fetcher assigment.
 The lib contains the data_fetcher in the src directory. The data_models file defines
 CustomData type
 
-Nmae: Collins Nnanna
+Author: Collins Nnanna
 KODECAMP 4.0 
